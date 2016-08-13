@@ -4,17 +4,31 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <header class="pure-g">
+      <div class="pure-u-1">
+        <h1 class="name text-uppercase">Christa Elliott</h1>
       </div>
-    </div>
-
-    {% include footer.html %}
-
+    </header>
+    <main>
+      <section class="pure-g" >
+        <div class="pure-u-1-2">
+          <div>
+            <button class="pure-button">
+              <div class="play"></div>
+            </button>
+            <button class="pure-button">
+              <div class="pause"></div>
+            </button>
+            <div style="margin: 15px 0; height: 36px; width: 100%; background: #bbb;"></div>
+          </div>
+          <div style="margin: 15px 0; height: 36px; width: 100%; background: #bbb;"></div>
+          <div style="margin: 15px 0; height: 36px; width: 100%; background: #bbb;"></div>
+          <button class="pure-button text-uppercase">Contact Me</button>
+        </div>
+        <div class="pure-u-1-2"></div>
+      </section>
+    </main>
+    <footer>
+    </footer>
   </body>
-
 </html>

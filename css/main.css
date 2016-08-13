@@ -1,0 +1,32 @@
+
+body {
+  margin: 0 15px;
+}
+
+.name {
+  font-family: 'Prompt';
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.play{
+  border: 10px solid transparent;
+  border-left: 15px solid #bbb;
+}
+
+.pause{
+  border-left: 5px solid #bbb;
+  border-right: 5px solid #bbb;
+  height: 20px;
+  width: 3px;
+}
+
+@media (min-width: 768px;) {
+  body {
+    width: 768px;
+  }
+}

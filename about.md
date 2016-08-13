@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: marketing
 title: About
 permalink: /about/
 ---
