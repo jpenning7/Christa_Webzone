@@ -1,12 +1,13 @@
 
 body {
-  margin: 0 15px;
+  margin: 15px 15px;
 }
 
 .name {
   font-family: 'Prompt';
   border-top: 1px solid red;
   border-bottom: 1px solid red;
+  background-color: pink;
 }
 
 .text-uppercase{
@@ -27,14 +28,18 @@ body {
 
 .headshot-background{
   background-image: url("../images/headshot.jpg");
-  background-repeat: no-repeat;
   background-position: right top;
-  background-attachment: fixed;
-
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-color: black;
 }
+
+
 
 @media (min-width: 768px;) {
   body {
     width: 768px;
+
   }
 }
